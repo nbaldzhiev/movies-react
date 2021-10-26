@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  margin: 0;
+  background-color: rgb(3, 37, 65);
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-bar > p {
+  font-size: 2rem;
+  font-weight: 700;
+  background: -webkit-linear-gradient(90deg, rgba(125,196,146,1) 0%, rgba(26,164,217,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#search-section {
+  margin: 0;
+  height: 400px;
+  background: rgb(7,43,70);
+  background: linear-gradient(90deg, rgba(7,43,70,1) 0%, rgba(10,63,96,1) 47%, rgba(15,115,161,1) 100%);
+}
+
+#search-section > h1 {
+  margin: 0;
+  margin-left: 2rem;
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+#search-section > h3 {
+  margin: 0;
+  color: white;
+  margin-left: 2rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
