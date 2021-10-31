@@ -1,0 +1,73 @@
+.movie-item {
+    width: 100%;
+    display: flex;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+    border: 0.1px solid #888888;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    color: #ffffff;
+}
+
+.movie-poster {
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.movie-title {
+    font-size: 2.6rem;
+    margin-bottom: 0;
+}
+
+.release-date {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.original_language {
+    text-transform: uppercase;
+}
+
+.overview-title {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.overview {
+    margin-top: 0.3rem;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating-stats {
+    margin-left: 0.3rem;
+}
+
+.rating-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+}
+
+.rating-value {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.rating-count {
+    margin: 0;
+}
