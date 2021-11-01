@@ -31,7 +31,7 @@ function Movie({ movie }) {
         <img className="movie-poster" src={imageUrl + movie.poster_path} alt="movie poster"></img>
       </div>
       <div className="info-container">
-        <h1 className="movie-title">{movie.media_type === 'movie' ? movie.original_title : movie.name}</h1>
+        <h1 className="movie-title">{movie.media_type === 'movie' ? movie.original_title : (movie.media_type ? movie.name : movie.original_title)}</h1>
         <p className="release-date">{movie.release_date} (<span className="original_language">{movie.original_language}</span>)</p>
         <h3 className="overview-title">Overview</h3>
         <p className="overview">{movie.overview.slice(0, 410)}...</p>
