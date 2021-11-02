@@ -17,6 +17,9 @@ header {
 }
 
 .header-bar > p {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 2rem;
   font-size: 2rem;
   font-weight: 700;
   background: -webkit-linear-gradient(90deg, rgba(125,196,146,1) 0%, rgba(26,164,217,1) 100%);
@@ -115,4 +118,45 @@ button:hover {
 
 button:active {
   color: #000000;
+}
+
+@media (max-width: 1145px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  .header-bar > p {
+    width: 100%;
+    font-size: 1.3rem;
+  }
+  main, #movies-list {
+    width: 100%;
+  }
+  #search-section > h1 {
+    font-size: 2rem;
+  }
+  #search-section > h3 {
+    font-size: 1.5rem;
+  }
+  input, button {
+    font-size: .7rem;
+    height: 30px;
+  }
+  input {
+    padding-left: 1rem;
+    width: 80%;
+  }
+  button {
+    width: 15%;
+    font-weight: 900;
+  }
+  form > button {
+    margin-right: 1rem;
+  }
+  .trendy-buttons {
+    width: 100%;
+    padding-right: 1rem;
+  }
+  .trendy-buttons > button {
+    width: 45%;
+  }
 }

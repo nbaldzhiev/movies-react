@@ -11,7 +11,6 @@ function Movie({ movie }) {
   async function getImageUrl() {
       const response = await fetch(baseUrl + `configuration?api_key=${apiKey}`);
       const data = await response.json();
-      console.log(data.images.secure_base_url)
       setImageUrl(data.images.secure_base_url + 'w342');
   }
 
@@ -24,7 +23,6 @@ function Movie({ movie }) {
     objectFit: 'cover'
   }
 
-  console.log(movie)
   return (
     <div className="movie-item" style={backgroundImageStyle}>
       <div className="image-container">

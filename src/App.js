@@ -60,10 +60,10 @@ function App() {
       <main>
           <div id="search-section">
               <h1>Welcome.</h1>
-              <h3>Millions of movies, TV shows and people to discover. Explore now.</h3>
+              <h3>Millions of movies and TV shows to discover. Explore now.</h3>
               <form onSubmit={getMovies}>
                   <label htmlFor="inputQuery">
-                      <input type="text" id="inputQuery" name="inputQuery" onChange={(event) => setQuery(event.target.value)} value={query} placeholder="i.e. The Dark Knight or Christopher Nolan"></input>
+                      <input type="text" id="inputQuery" name="inputQuery" onChange={(event) => setQuery(event.target.value)} value={query} placeholder="i.e. The Dark Knight or The Office"></input>
                   </label>
                   <button type="submit">Search</button>
               </form>

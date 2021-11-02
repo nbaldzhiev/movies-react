@@ -71,3 +71,31 @@
 .rating-count {
     margin: 0;
 }
+
+@media (max-width: 1145px) {
+    .movie-title {
+        font-size: 1.3rem;
+    }
+    .movie-poster {
+        width: 185px;
+    }
+    .release-date {
+        font-size: .9rem;
+    }
+    .overview-title {
+        font-size: 1.1rem;
+    }
+
+    .overview {
+        font-size: 1rem;
+    }
+    .rating-title {
+        font-size: .9rem;
+    }
+    .rating-value, .rating-count {
+        font-size: .8rem;
+    }
+    .image-container {
+        align-self: center;
+    }
+}
